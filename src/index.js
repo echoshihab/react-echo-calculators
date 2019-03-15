@@ -20,7 +20,7 @@ const routing = (
     <div className='router'>
 
         <Switch>
-        <Route exact path ="/" component={MainNav} />
+        <Route exact path ="/react-echo-calculators" component={MainNav} />
         <Route path="/svco" component={Svco} />
         <Route path="/rvsp" component={Rvsp} />
         <Route path="/qpqs" component={Qpqs} />
