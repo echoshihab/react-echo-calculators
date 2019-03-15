@@ -16,11 +16,11 @@ import * as serviceWorker from './serviceWorker';
 
 //how do i have a different navigation option in other pages.
 const routing = (
-<Router>
+<Router basename={process.env.PUBLIC_URL}>
     <div className='router'>
 
         <Switch>
-        <Route exact path ="/react-echo-calculators" component={MainNav} />
+        <Route exact path ="/" component={MainNav} />
         <Route path="/svco" component={Svco} />
         <Route path="/rvsp" component={Rvsp} />
         <Route path="/qpqs" component={Qpqs} />
