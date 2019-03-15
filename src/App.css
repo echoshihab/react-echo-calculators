@@ -1,0 +1,102 @@
+.stateComponent {
+  text-align: center;
+}
+
+h4 {
+  text-align: center;
+}
+
+.img {
+  width: 20px;
+  height: 20px;
+}
+
+
+.calcResult {
+  width: 60%;
+  margin: auto;
+  border: 1px solid #eee;
+  box-shadow: 0 2px 3px #ccc;
+  padding: 16px;
+  text-align: center;
+}
+
+table, td, th {
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table.center {
+  margin-top:15%;
+  width:70%;
+  margin-left:15%;
+  margin-right:15%;
+}
+
+th, td {
+  padding: 15px;
+}
+
+button {
+  background-color: White; /* Green */
+  border: 1px solid #eee;
+  box-shadow: 0 2px 3px #ccc;
+  color: black;
+  padding: 10px 22px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+button:hover {
+  background-color: #e7e7e7;
+}
+
+.invalid {
+    color: red;
+}
+
+.valid {
+  color: green;
+}
+
+.router ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.router li {
+  display: inline-block;
+  margin:20px;
+
+}
+
+.router a {
+  text-decoration: none;
+  color: black;
+
+}
+
+.router a:hover {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+h2 {
+
+    text-align: center;
+    font-weight: bold;
+}
+
+.test {
+  float: left;
+}
