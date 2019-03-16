@@ -1,10 +1,10 @@
 Demo: https://echoshihab.github.io/react-echo-calculators/ <br>
-React Echo Calculator: A set of calculators for cardiac ultrasound/echocardiography
-
+React Echo Calculator: A set of calculators for cardiac ultrasound/echocardiography <br>
+Created using create-react-app
 
 ### Requirements:
-Node.JS
-Npm
+Node.JS <br>
+Npm <br>
 
 ### Dependencies: 
     "react: "^16.7.0",
